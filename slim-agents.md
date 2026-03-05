@@ -28,7 +28,7 @@ Before evaluating the context file, examine the repository it belongs to. Read r
 Go through the context file section by section (or paragraph by paragraph if it lacks clear sections). Classify each block into one of these categories:
 
 | Category | Description | Action |
-|---|---|---|
+|:---|:---|:---|
 | **Redundant with repo** | Restates information available in existing docs, config files, or code structure. Directory trees, component lists, architecture overviews, summaries of what the README already says. | **Remove.** |
 | **Discoverable by exploration** | Describes things an agent would find on its own by reading the codebase — file locations, project structure, what modules do, language/framework in use. | **Remove.** |
 | **Generic best practice** | States things any competent agent would do by default — "write clean code," "follow existing patterns," "handle errors appropriately," "add tests for new features." | **Remove.** |
